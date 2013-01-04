@@ -1,0 +1,14 @@
+<div ng-controller="ButtonCtrl">
+
+    <h4>Single toggle</h4>
+    <button toggle="single.selected" class="">Click me!</button>
+    <pre>{{single | json}}</pre>
+
+    <h4>Checkbox</h4>
+    <div class="btn-group" data-toggle="buttons-checkbox">
+        <button toggle="group.left" class="btn-primary">Left</button>
+        <button toggle="group.middle" class="btn-primary">Middle</button>
+        <button toggle="group.right" class="btn-primary">Right</button>
+    </div>
+    <pre>{{group | json}}</pre>
+</div>
